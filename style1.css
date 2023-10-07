@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;   
+}
+.containera{
+    width: 100%;
+    height: 200px;
+    margin-top: 300px;   
+}
+.startBtn{
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+                        /* info-Box */
+.containerb{
+    width: 50%;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+/* Media query for screens smaller than 768px (adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+    .container1 {
+        width: 90%; /* Adjust the width for smaller screens */
+        margin-left: auto; /* Center horizontally on smaller screens */
+        margin-right: auto; /* Center horizontally on smaller screens */
+        margin-top: 50px; /* Adjust the margin-top for smaller screens */
+    }
+}
+body{
+    background-color: burlywood;
+}
+ .container1{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: none; 
+} 
+.scoreCard{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 60px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.crown{
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: blue;
+}
+.hd{
+    color: blue;
+}
+#Quiz{
+    display: none;
+}
+@media (max-width: 900px){
+    .containerb{
+        width: 70%;
+        margin-top: 150px;
+        margin-left: 150px;
+        
+    }
+}
+@media (max-width: 650px){
+    .containerb{
+        width: 80%;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+}
+@media (max-width: 400px){
+    .containerb{
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+}
+@media (max-width:580px){
+    .container{
+        width: 90%;
+    }
+}
+.heading{
+    font-size: 50px;
+    font-weight: 900;
+}
